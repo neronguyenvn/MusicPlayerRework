@@ -1,6 +1,6 @@
 type: edu
 files:
-  - name: src/main/java/org/hyperskill/musicplayer/MainActivity.kt
+  - name: src/main/java/org/hyperskill/musicplayer/presentation/MainActivity.kt
     visible: true
     learner_created: false
   - name: src/main/res/drawable/ic_launcher_background.xml
@@ -76,7 +76,40 @@ files:
   - name: src/main/res/menu/menu_main.xml
     visible: true
     learner_created: true
-  - name: src/main/java/org/hyperskill/musicplayer/MainPlayerControllerFragment.kt
+  - name: src/main/java/org/hyperskill/musicplayer/presentation/MainPlayerControllerFragment.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/musicplayer/presentation/MainViewModel.kt
+    visible: true
+    learner_created: true
+  - name: src/main/res/layout/list_item_song.xml
+    visible: true
+    learner_created: true
+  - name: src/main/res/layout/list_item_song_selector.xml
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/musicplayer/domain/Song.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/musicplayer/presentation/MainAddPlaylistFragment.kt
+    visible: true
+    learner_created: true
+  - name: src/main/res/layout/fragment_add_playlist.xml
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/musicplayer/domain/Track.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/musicplayer/data/FakeSongRepository.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/musicplayer/data/SongRepository.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/musicplayer/domain/Playlist.kt
+    visible: true
+    learner_created: true
+  - name: src/main/java/org/hyperskill/musicplayer/domain/SongSelector.kt
     visible: true
     learner_created: true
 feedback_link: https://hyperskill.org/learn/step/22740#comment

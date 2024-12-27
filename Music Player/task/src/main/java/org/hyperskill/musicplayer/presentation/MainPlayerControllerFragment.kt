@@ -1,4 +1,4 @@
-package org.hyperskill.musicplayer
+package org.hyperskill.musicplayer.presentation
 
 import android.os.Bundle
 import android.view.LayoutInflater
